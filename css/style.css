@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+* nav {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+* nav .nav-center {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+* nav .nav-center ol {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+* nav .nav-center ol li {
+  list-style: none;
+}
+* nav .nav-center ol li a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+* nav .nav-center ol li a:hover {
+  color: rgb(112, 179, 218);
+}
+* .main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .main .container {
+  width: 40%;
+  height: 200px;
+  background-color: #0e011f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  font-size: 2rem;
+}
+* .main .container span {
+  color: rgb(112, 179, 218);
+}
+* .main .btn-color {
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: solid black 3px;
+  cursor: pointer;
+}
+* .main .btn-color:hover {
+  background-color: black;
+  color: white;
+  border: solid white 3px;
+}
+
+@media (max-width: 1178px) {
+  .container {
+    width: 80% !important;
+  }
+}
+@media (max-width: 579px) {
+  .container {
+    font-size: 1.2rem !important;
+  }
+}
+@media (max-width: 375px) {
+  a {
+    font-size: 1rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
