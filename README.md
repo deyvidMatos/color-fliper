@@ -1,0 +1,1 @@
+Esse e um mine projeto, feito colocando em pratica os conhecimentos de html, css, scss e js. Nele foi feito duas paginas html, dois arquivos js para cada pagina, scss e css. Tudo isso para fazer um botão que muda a cor de fundo. 
